@@ -1,6 +1,6 @@
 -e .
-aws_cdk.aws_cloudfront==1.16.3
-aws_cdk.aws_iam==1.16.3
-aws_cdk.aws_s3==1.16.3
-aws_cdk.aws_s3_deployment==1.16.3
-aws-cdk.core==1.16.3
+aws_cdk.aws_cloudfront
+aws_cdk.aws_iam
+aws_cdk.aws_s3
+aws_cdk.aws_s3_deployment
+aws-cdk.core
