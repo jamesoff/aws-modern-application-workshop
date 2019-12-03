@@ -28,6 +28,8 @@ class WebApplicationStack(core.Stack):
 
         cloudfront_behaviour = cloudfront.Behavior(
             max_ttl=core.Duration.seconds(60),
+            min_ttl=core.Duration.seconds(60),
+            default_ttl=core.Duration.seconds(60),
             allowed_methods=cloudfront.CloudFrontAllowedMethods.GET_HEAD_OPTIONS,
             is_default_behavior=True
         )
